@@ -5,9 +5,7 @@
  *
  * Return: (0) (Success)
  */
-void print_alphabet(void);
-
-int main(void)
+void print_alphabet(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
@@ -17,5 +15,4 @@ int main(void)
 		_putchar(alp[i]);
 	}
 	_putchar('\n');
-	return (0);
 }
