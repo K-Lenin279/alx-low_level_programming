@@ -8,9 +8,9 @@
  *
  * Return: 1 and print + if n is greater than zero
  *
- * Return: 0 and print 0 if n is zero
+ * 0 and print 0 if n is zero
  *
- * Return: -1 and print - if n is less than zero
+ * -1 and print - if n is less than zero
  */
 int print_sign(int n)
 {

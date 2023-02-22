@@ -4,10 +4,6 @@
 /**
  * print_alphabet - prints the alphabet lowercase
  *
- * @i: the int to check
- *
- * @alp: the char to check
- *
  * Return: Always 0.
  */
 void print_alphabet(void)
