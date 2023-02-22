@@ -2,7 +2,9 @@
 #include "main.h"
 
 /**
- * Prototype: int print_sign(int n)
+ * print_sign - prints the sign of a number
+ *
+ * @n: the int to check
  *
  * Returns 1 and prints + if n is greater than zero
  *
