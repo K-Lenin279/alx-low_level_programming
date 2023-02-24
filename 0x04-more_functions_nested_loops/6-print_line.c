@@ -6,7 +6,7 @@
  */
 void print_line(int n)
 {
-	int r;
+	int r, j;
 
 	if (n <= 0)
 	{
@@ -14,11 +14,14 @@ void print_line(int n)
 	}
 	else
 	{
-		r = 1;
-		while (r <= n)
+		for (r = 0; r <= n; r++)
 		{
-			_putchar('_');
-			r++;
+			for (j = 0; j < r; j++)
+			{
+				_putchar(95);
+			}
+			_putchar(95);
+			_putchar('\n');
 		}
 	}
 }
