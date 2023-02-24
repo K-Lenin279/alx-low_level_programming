@@ -14,7 +14,7 @@ void print_line(int n)
 	}
 	else
 	{
-		for (r = 0; r <= n; r++)
+		for (r = 0; r < n; r++)
 		{
 			for (j = 0; j < r; j++)
 			{
