@@ -62,3 +62,9 @@ Write a program that prints the numbers from 1 to 100, followed by a new line. B
 Write a function that prints a triangle, followed by a new line.
 
 Prototype: void print_triangle(int size);
+
+12.Numbers have life; they're not just symbols on paper
+
+Write a function that prints an integer.
+
+Prototype: void print_number(int n);
