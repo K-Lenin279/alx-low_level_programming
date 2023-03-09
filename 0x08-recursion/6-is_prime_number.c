@@ -2,7 +2,7 @@
 /**
  * prime_det - detect if input integer is a prime number
  * @n: input integer
- * @c: iterator
+ * @a: iterator
  * Return: 1 if integer is prime number, otherwise return 0
  */
 int prime_det(unsigned int n, unsigned int a)
